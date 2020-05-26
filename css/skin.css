@@ -2194,10 +2194,10 @@ body,
 
 /* Hero Sections */
 .hero-5-about-1 .media-column {
-  background-image: url(../images/about-me.JPG);
+  background-image: url(../images/slider/profile_pic.jpg);
 }
 .hero-5-about-2 .media-column {
-  background-image: url(../images/about-me.JPG);
+  background-image: url(./images/slider/profile_pic.jpg);
 }
 
 /*------------------------------------------------------------------
