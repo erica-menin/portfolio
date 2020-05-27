@@ -2200,6 +2200,10 @@ body,
   background-image: url(./images/slider/profile_pic.jpg);
 }
 
+.hero-5-home .media-column {
+  background-image: url(../images/slider/profile_pic.jpg);
+}
+
 /*------------------------------------------------------------------
 [16. Contact Pages]
 */
@@ -3187,7 +3191,7 @@ blockquote.border {
   height: 50rem;
 }
 [class*="hero-"].window-height {
-  height: 100vh;
+  height: 92vh;
 }
 
 /* .hero-5 {

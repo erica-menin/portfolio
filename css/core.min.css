@@ -8567,7 +8567,7 @@ body.boxed .hero-6 {
     visibility: hidden;
   }
   .hero-5.show-media-column-on-mobile {
-    padding-top: 0;
+    padding: 0;
   }
   .hero-5.show-media-column-on-mobile .media-column {
     display: block;
