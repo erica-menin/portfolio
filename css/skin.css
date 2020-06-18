@@ -153,7 +153,7 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1;
+  line-height: 1.25;
   font-weight: 700;
   text-transform: normal;
   color: #000;
@@ -301,7 +301,7 @@ h4.project-title {
 /* Footer Text */
 .footer h4 {
   font-size: 1.5rem;
-  color: #000;
+  color: #333;
 }
 .footer .copyright {
   font-size: 1.1rem;
@@ -319,6 +319,7 @@ h4.project-title {
 .title-xlarge {
   font-size: 8rem;
 }
+
 .tms-caption.scale.title-xlarge,
 .tmp-content .title-xlarge {
   font-size: 10rem;
@@ -484,11 +485,38 @@ body,
   color: #4e4e4d;
 }
 
+/* rose */
+.bkg-rose {
+  background-color: #ff86a1;
+  border-color: #ff86a1;
+}
+
+.bkg-rose-transp {
+  background-color: rgba(255, 134, 161, 0.8);
+}
+
+.bkg-hover-rose:hover {
+  background-color: #ff86a1;
+  border-color: #ff86a1;
+}
+.border-hover-rose:hover {
+  border-color: #ff86a1;
+}
+.color-rose,
+.color-hover-rose:hover {
+  color: #ff86a1;
+}
+
 /* charcoal */
 .bkg-charcoal-light {
   background-color: #333;
   border-color: #333;
 }
+
+.bkg-charcoal-transp {
+  background-color: rgba(50, 50, 50, 0.8);
+}
+
 .bkg-hover-charcoal-light:hover {
   background-color: #333;
   border-color: #333;
@@ -678,6 +706,7 @@ body,
     border-top-style: solid;
   }
 }
+
 .section-block,
 .fullscreen-section .fullscreen-inner,
 .pagination-2 .pagination-next,
@@ -685,10 +714,26 @@ body,
   padding-top: 11rem;
   padding-bottom: 11rem;
 }
+
+.section-block.herox {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.section-block.portfolio {
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+}
+
 .section-block.replicable-content,
 .row.xlarge.replicable-content {
+  padding-top: 9rem;
+  padding-bottom: 4rem;
+}
+
+.section-block.intro {
   padding-top: 11rem;
-  padding-bottom: 8rem;
+  padding-bottom: 0.5rem;
 }
 .section-block.slanted-top:before {
   width: 100%;
@@ -2193,6 +2238,11 @@ body,
 }
 
 /* Hero Sections */
+
+.hero-5-profile .media-column {
+  background-image: url(../images/slider/profile_pic.jpg);
+}
+
 .hero-5-about-1 .media-column {
   background-image: url(../images/slider/profile_pic.jpg);
 }
@@ -2276,7 +2326,7 @@ body,
 
 /* Project 4 */
 .hero-5-project-4 .media-column {
-  background-image: url(../images/portfolio/project-4/hero-half.jpg);
+  background-image: url(../images/portfolio/setta/persona_setta.png);
 }
 
 /* Project 5 */
@@ -2317,19 +2367,19 @@ body,
   margin-bottom: 0;
 }
 .project-swatch-list li {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 .project-swatch {
-  margin-right: 5rem;
+  margin-right: 3rem;
 }
 .center .project-swatch {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 @media only screen and (max-width: 768px) {
   .center-on-mobile .project-swatch {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
 }
 
@@ -3486,5 +3536,19 @@ blockquote.border {
   /* Contact Page */
   .hero-5-contact .media-column {
     background-image: url(../images/contact/contact-hero@2x.jpg);
+  }
+}
+
+/*------------------------------------------------------------------
+*/
+@media only screen and (max-width: 768px) {
+  .scroll-mobile {
+    display: none;
+    float: right;
+    text-align: left;
+    position: fixed;
+    bottom: 1rem;
+    right: -3rem;
+    z-index: 20;
   }
 }
