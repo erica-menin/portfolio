@@ -65,7 +65,7 @@ body {
   font-weight: 500;
   text-transform: lowercase;
   color: #000;
-  width: 50%;
+  width: 100%;
 }
 
 h1,
@@ -379,7 +379,7 @@ h4.project-title {
 @media only screen and (max-width: 768px) {
   h1,
   .title-xlarge {
-    font-size: 4rem;
+    font-size: 6rem;
   }
   h2,
   .title-large {
@@ -547,20 +547,20 @@ body,
 
 /* red */
 .bkg-red {
-  background-color: #bb3388;
-  border-color: #bb3388;
+  background-color: red;
+  border-color: red;
 }
 .bkg-hover-red:hover {
-  background-color: #bb3388;
-  border-color: #bb3388;
+  background-color: red;
+  border-color: red;
 }
 .border-red,
 .border-hover-red:hover {
-  border-color: #bb3388;
+  border-color: red;
 }
 .color-red,
 .color-hover-red:hover {
-  color: #bb3388;
+  color: red;
 }
 
 /* pink */
@@ -579,6 +579,24 @@ body,
 .color-pink,
 .color-hover-pink:hover {
   color: #962c6d;
+}
+
+/* pink */
+.bkg-pink-light {
+  background-color: #ffecf7;
+  border-color: #ffecf7;
+}
+.bkg-hover-pink:hover {
+  background-color: #ffecf7;
+  border-color: #ffecf7;
+}
+.border-pink,
+.border-hover-pink:hover {
+  border-color: #ffecf7;
+}
+.color-pink,
+.color-hover-pink:hover {
+  color: #ffecf7;
 }
 
 /* blue */

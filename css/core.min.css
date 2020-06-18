@@ -12406,6 +12406,10 @@ body.boxed .blog-masonry.full-width [class*="content-grid"] {
   top: -15rem;
 }
 @media only screen and (max-width: 768px) {
+
+  .m-mobile-30 {
+    margin: 3rem;
+  }
   .mt-mobile-0 {
     margin-top: 0;
   }
@@ -12515,6 +12519,9 @@ body.boxed .blog-masonry.full-width [class*="content-grid"] {
 
   .pd-mobile-30 {
     padding: 3rem 0;
+  }
+  .no-margin-mobile {
+    margin: 0;
   }
 
   .mp0-mobile {
