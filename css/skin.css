@@ -1974,6 +1974,9 @@ body,
   .featured-media .tms-arrow-nav {
     display: none !important;
   }
+  /* .full-width-slider-mobile {
+    height: 100vh;
+  } */
 }
 
 /*------------------------------------------------------------------
