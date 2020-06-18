@@ -12513,6 +12513,10 @@ body.boxed .blog-masonry.full-width [class*="content-grid"] {
     padding: 1.5rem 0;
   }
 
+  .pd-mobile-30 {
+    padding: 3rem 0;
+  }
+
   .mp0-mobile {
     right: 0;
     padding: 0;
