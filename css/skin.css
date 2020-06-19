@@ -833,6 +833,18 @@ body,
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .section-block.pt-mobile {
+    padding-top: 1.5rem !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section-block.pb-mobile {
+    padding-bottom: 4rem !important;
+  }
+}
+
 /*------------------------------------------------------------------
 [4. Header Styling]
 */
@@ -3568,7 +3580,7 @@ blockquote.border {
     float: right;
     text-align: left;
     position: fixed;
-    bottom: 1rem;
+    bottom: 2rem;
     right: -3rem;
     z-index: 20;
   }
