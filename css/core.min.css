@@ -7863,8 +7863,11 @@ body.boxed .header .header-inner {
 .mobile .header .header-inner {
   height: 8rem !important;
   padding-top: 0;
-  background: #232323;
+  background: none;
 }
+
+/* ^^^^ black box on mobile!!! ^^^^ */
+
 .mobile .header .header-inner,
 .mobile .header .nav-bar {
   border-top: none !important;
@@ -12406,7 +12409,6 @@ body.boxed .blog-masonry.full-width [class*="content-grid"] {
   top: -15rem;
 }
 @media only screen and (max-width: 768px) {
-
   .m-mobile-30 {
     margin: 3rem;
   }
