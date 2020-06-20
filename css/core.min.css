@@ -12522,6 +12522,10 @@ body.boxed .blog-masonry.full-width [class*="content-grid"] {
   .pd-mobile-30 {
     padding: 3rem 0;
   }
+
+  .pb-mobile-40 {
+    padding-bottom: 4rem;
+  }
   .no-margin-mobile {
     margin: 0;
   }

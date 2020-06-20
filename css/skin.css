@@ -845,6 +845,12 @@ body,
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .pb-mobile {
+    padding-bottom: 4rem !important;
+  }
+}
+
 /*------------------------------------------------------------------
 [4. Header Styling]
 */
@@ -3561,7 +3567,7 @@ blockquote.border {
     float: right;
     text-align: left;
     position: fixed;
-    bottom: 2rem;
+    bottom: 3rem;
     right: -3rem;
     z-index: 20;
   }
