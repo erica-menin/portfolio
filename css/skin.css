@@ -581,7 +581,7 @@ body,
   color: #962c6d;
 }
 
-/* pink */
+/* light pink */
 .bkg-pink-light {
   background-color: #ffecf7;
   border-color: #ffecf7;
@@ -599,22 +599,22 @@ body,
   color: #ffecf7;
 }
 
-/* blue */
+/* purple */
 .bkg-purple {
-  background-color: #5e0231;
-  border-color: #5e0231;
+  background-color: #423448;
+  border-color: #423448;
 }
 .bkg-hover-purple:hover {
-  background-color: #5e0231;
-  border-color: #5e0231;
+  background-color: #423448;
+  border-color: #423448;
 }
 .border-purple,
 .border-hover-purple:hover {
-  border-color: #5e0231;
+  border-color: #423448;
 }
 .color-purple,
 .color-hover-purple:hover {
-  color: #5e0231;
+  color: #423448;
 }
 
 /* blue */

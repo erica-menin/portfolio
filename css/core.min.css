@@ -12519,6 +12519,10 @@ body.boxed .blog-masonry.full-width [class*="content-grid"] {
     padding: 1.5rem 0;
   }
 
+  .pd-mobile-10 {
+    padding: -1rem 1.5rem;
+  }
+
   .pd-mobile-30 {
     padding: 3rem 0;
   }
@@ -12526,6 +12530,19 @@ body.boxed .blog-masonry.full-width [class*="content-grid"] {
   .pb-mobile-40 {
     padding-bottom: 4rem;
   }
+
+  .pt-mobile-0 {
+    padding-top: 0;
+  }
+
+  .pt-mobile-10 {
+    padding-top: 1rem;
+  }
+
+  .pt-mobile-20 {
+    padding-top: 2rem;
+  }
+
   .no-margin-mobile {
     margin: 0;
   }
